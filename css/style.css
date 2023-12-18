@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10vh;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.separation {
+  height: 100px;
+}
+
+select {
+  width: 200px;
+  height: 30px;
+}
+
+h1 {
+  max-width: 200px;
+}
