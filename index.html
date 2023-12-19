@@ -3,25 +3,47 @@
   <head>
     <title>Design Matters (lookalike)</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scripts -->
+    <script src="./js/scripts.js" type="text/javascript"></script>
+    <script src="./js/db_connection.js" type="module"></script>
   </head>
   <body>
     <div class="root">
       <header>
         <div class="navbar">
-          <div class="navbar__title block"><h1>Design Matters</h1></div>
+          <div class="navbar__title block">
+            <a target="_blank" href="https://www.designmattersmedia.com/"
+              ><h1>Design Matters</h1></a
+            >
+          </div>
           <hr />
           <div class="navbar__author block">
             <div class="navbar--text">Made by:</div>
-            <h1>Diogo Agostinho</h1>
+            <a href="https://github.com/diogoagostinho" target="_blank"
+              ><h1>Diogo Agostinho</h1></a
+            >
           </div>
           <hr />
           <div class="navbar__sort block">
-            <div class="navbar--text extra-padding">Sort by:</div>
-            <select name="sort_options" id="sort_options">
-              <option value="latest">Latest</option>
-              <option value="name">Name</option>
-              <option value="year">Year</option>
-            </select>
+            <form action="">
+              <div class="navbar--text extra-padding">Sort by:</div>
+              <select name="sort_options" id="sort_options">
+                <option value="latest">Latest</option>
+                <option value="name">Name</option>
+                <option value="year">Year</option>
+              </select>
+            </form>
           </div>
         </div>
         <hr />
@@ -29,14 +51,24 @@
       <main>
         <div class="description">
           <h3>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quo
-            iure nam quam quisquam expedita, laborum eligendi porro fuga quasi
-            nemo sequi delectus soluta esse non possimus doloremque accusantium
-            consectetur.
+            Have a look at what games peaked my interest and made me play them,
+            these are only a few of the examples, this website is mainly made
+            for portfolio purposes, being developed with HTML, CSS and
+            JavaScript.
           </h3>
           <hr />
         </div>
-        <div class="content"></div>
+        <div class="content">
+          <button onclick="test()">Test Me</button>
+        </div>
+        <footer>
+          <div class="footer__info">
+            <h2>
+              Copyright © 2023
+              <span class="footer__eyecatch">Diogo Agostinho</span>
+            </h2>
+          </div>
+        </footer>
       </main>
     </div>
   </body>
