@@ -1,5 +1,72 @@
 [
-  { "id": 1, "name": "Sea of Thieves", "year": 2018, "date": "2023-12-19" },
-  { "id": 2, "name": "No Man's Sky", "year": 2016, "date": "2023-12-18" },
-  { "id": 3, "name": "Warframe", "year": 2019, "date": "2023-12-17" }
+  {
+    "id": 1,
+    "name": "Sea of Thieves",
+    "year": 2018,
+    "date": "2023-12-19",
+    "img": "../imgs/seaofthieves.jpg"
+  },
+  {
+    "id": 2,
+    "name": "No Man's Sky",
+    "year": 2016,
+    "date": "2023-12-18",
+    "img": "../imgs/nomanssky.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Warframe",
+    "year": 2019,
+    "date": "2023-12-17",
+    "img": "../imgs/warframe.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lethal Company",
+    "year": 2023,
+    "date": "2023-12-16",
+    "img": "../imgs/lethalcompany.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cyberpunk 2077",
+    "year": 2020,
+    "date": "2023-12-14",
+    "img": "../imgs/cyberpunk.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Witcher 3: The Wild Hunt",
+    "year": 2015,
+    "date": "2023-12-17",
+    "img": "../imgs/witcher3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "The Elder Scrolls V: Skyrim",
+    "year": 2011,
+    "date": "2023-12-17",
+    "img": "../imgs/skyrim.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fallout 4",
+    "year": 2015,
+    "date": "2023-12-17",
+    "img": "../imgs/fallout4.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Half-Life",
+    "year": 1998,
+    "date": "2022-12-17",
+    "img": "../imgs/halflife.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Forza Horizon 4",
+    "year": 2018,
+    "date": "2023-12-10",
+    "img": "../imgs/forza4.jpg"
+  }
 ]
