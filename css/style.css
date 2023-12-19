@@ -1,25 +1,44 @@
 * {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 10vh;
+  justify-content: space-evenly;
+  justify-items: center;
   padding: 10px 0;
-  align-items: center;
 }
 
-.separation {
-  height: 100px;
+.navbar .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1%;
+  padding: 0;
 }
 
-select {
+.navbar--text {
+  text-transform: uppercase;
+  font-size: 1.2ch;
+}
+
+.extra-padding {
+  padding-bottom: 5px;
+}
+
+.navbar select {
   width: 200px;
   height: 30px;
 }
 
 h1 {
   max-width: 200px;
+  font-weight: 800;
+}
+
+h3 {
+  padding: 1% 10%;
+  font-weight: 500;
+  font-size: 2.8ch;
 }

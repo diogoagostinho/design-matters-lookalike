@@ -5,39 +5,39 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <h1>Design Matters</h1>
-        <hr class="separation" />
-        <div class="author">
-          <span>Made by:</span>
-          <h1>Diogo Agostinho</h1>
+    <div class="root">
+      <header>
+        <div class="navbar">
+          <div class="navbar__title block"><h1>Design Matters</h1></div>
+          <hr />
+          <div class="navbar__author block">
+            <div class="navbar--text">Made by:</div>
+            <h1>Diogo Agostinho</h1>
+          </div>
+          <hr />
+          <div class="navbar__sort block">
+            <div class="navbar--text extra-padding">Sort by:</div>
+            <select name="sort_options" id="sort_options">
+              <option value="latest">Latest</option>
+              <option value="name">Name</option>
+              <option value="year">Year</option>
+            </select>
+          </div>
         </div>
-        <hr class="separation" />
-        <div class="sort">
-          <span>Sort by:</span>
-          <select name="sort_options" id="sort_options">
-            <option value="latest">Latest</option>
-            <option value="name">Name</option>
-            <option value="year">Year</option>
-          </select>
-        </div>
-      </div>
-      <hr />
-    </header>
-    <main>
-      <div class="description">
-        <h2>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quo iure
-          nam quam quisquam expedita, laborum eligendi porro fuga quasi nemo
-          sequi delectus soluta esse non possimus doloremque accusantium
-          consectetur.
-        </h2>
         <hr />
-      </div>
-      <div class="content">
-        <p>This is a placeholder</p>
-      </div>
-    </main>
+      </header>
+      <main>
+        <div class="description">
+          <h3>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quo
+            iure nam quam quisquam expedita, laborum eligendi porro fuga quasi
+            nemo sequi delectus soluta esse non possimus doloremque accusantium
+            consectetur.
+          </h3>
+          <hr />
+        </div>
+        <div class="content"></div>
+      </main>
+    </div>
   </body>
 </html>
