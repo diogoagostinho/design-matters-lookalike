@@ -3,60 +3,60 @@
     "id": 0,
     "name": "Sea of Thieves",
     "year": 2018,
-    "img": "../imgs/seaofthieves.jpg"
+    "img": "imgs/seaofthieves.jpg"
   },
   {
     "id": 1,
     "name": "No Man's Sky",
     "year": 2016,
-    "img": "../imgs/nomanssky.jpg"
+    "img": "imgs/nomanssky.jpg"
   },
   {
     "id": 2,
     "name": "Warframe",
     "year": 2019,
-    "img": "../imgs/warframe.jpg"
+    "img": "imgs/warframe.jpg"
   },
   {
     "id": 3,
     "name": "Lethal Company",
     "year": 2023,
-    "img": "../imgs/lethalcompany.jpg"
+    "img": "imgs/lethalcompany.jpg"
   },
   {
     "id": 4,
     "name": "Cyberpunk 2077",
     "year": 2020,
-    "img": "../imgs/cyberpunk.jpg"
+    "img": "imgs/cyberpunk.jpg"
   },
   {
     "id": 5,
     "name": "The Witcher 3: The Wild Hunt",
     "year": 2015,
-    "img": "../imgs/witcher3.jpg"
+    "img": "imgs/witcher3.jpg"
   },
   {
     "id": 6,
     "name": "The Elder Scrolls V: Skyrim",
     "year": 2011,
-    "img": "../imgs/skyrim.jpg"
+    "img": "imgs/skyrim.jpg"
   },
   {
     "id": 7,
     "name": "Fallout 4",
     "year": 2015,
-    "img": "../imgs/fallout4.jpg"
+    "img": "imgs/fallout4.jpg"
   },
   {
     "id": 8,
     "name": "Half-Life",
     "year": 1998,
-    "img": "../imgs/halflife.jpg"
+    "img": "imgs/halflife.jpg"
   },
   {
     "id": 9,
     "name": "Forza Horizon 4",
     "year": 2018,
-    "img": "../imgs/forza4.jpg"
+    "img": "imgs/forza4.jpg"
   }
 ]

@@ -65,6 +65,9 @@ orderGames.onchange = function () {
 //Show data in webpage on load
 listGames();
 
+/* Depracated function to upload data into JSON file
+//It is very complicated and not useful to mess around with a JSON "database"
+*/
 function handleSubmit(event) {
   event.preventDefault();
 
@@ -73,7 +76,30 @@ function handleSubmit(event) {
   const gameYear = document.getElementById("game_year-input").value;
   const gameImg = document.getElementById("game_cover-input").value;
 
-  console.log({ gameId, gameName, gameYear, gameImg });
+  if (gameName == "" || gameYear == "" || gameImg == "") {
+    document.getElementById("submission_result").innerHTML = `
+      <div class="error__box">
+        <p class="error__box-text">Please fill all the fields above!</p>
+      </div>
+    `;
+  } else {
+    document.getElementById("submission_result").innerHTML = `
+      <div class="sucess__box">
+        <p class="sucess__box-text">Game submitted sucessfully!</p>
+      </div>
+    `;
+
+    console.log(
+      "Game ID: " +
+        gameId +
+        "\nGame Name: " +
+        gameName +
+        "\nGame Year: " +
+        gameYear +
+        "\nGame Cover: " +
+        gameImg
+    );
+  }
 }
 
 const submit = document.getElementById("game_submit-input");

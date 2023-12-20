@@ -160,6 +160,13 @@ main {
   padding-bottom: 20px;
 }
 
+/* Deprecated upload to JSON database */
+
+.form__warning {
+  margin: 10px 0;
+  font-size: 1.2ch;
+}
+
 .form__section {
   padding: 2% 10%;
   display: flex;
@@ -205,4 +212,23 @@ main {
 
 .form__submit:hover {
   cursor: pointer;
+}
+
+.error__box,
+.sucess__box {
+  color: #fff;
+  padding: 20px 30px;
+  margin-top: 1ch;
+  border-radius: 8px;
+  background: transparent;
+}
+
+.error__box {
+  background: #ff5050;
+  box-shadow: #ff3232 0 0 10px;
+}
+
+.sucess__box {
+  background: #14ec31;
+  box-shadow: #13c706 0 0 10px;
 }

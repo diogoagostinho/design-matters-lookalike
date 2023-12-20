@@ -3,6 +3,7 @@
   <head>
     <title>Game Library</title>
     <link rel="stylesheet" href="css/style.css" />
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800&display=swap"
       rel="stylesheet"
     />
+
     <!-- Scripts -->
     <script src="./js/scripts.js" type="module"></script>
     <script src="./js/db_connection.js" type="module"></script>
@@ -57,6 +59,7 @@
           <hr />
         </div>
         <div id="content" class="content"></div>
+        <!--  Deprecated upload to JSON -->
         <hr />
         <div class="form__section">
           <h1 class="form__title">Add your own game!</h1>
@@ -105,6 +108,11 @@
               />
             </div>
           </form>
+          <span class="form__warning"
+            >This function does not work, as the database is made with JSON and
+            complicates things.</span
+          >
+          <div class="submission__result" id="submission_result"></div>
         </div>
         <footer>
           <div class="footer__info">
