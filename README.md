@@ -2,6 +2,8 @@
 
 ###### Design Matters Lookalike
 
+Visit the website [here](https://diogoagostinho.github.io/design-matters-lookalike/)
+
 Website made with **HTML CSS** and **JavaScript**, local database made with **JSON**.
 _Inspired by [Design Matters Media](https://www.designmattersmedia.com/)_
 

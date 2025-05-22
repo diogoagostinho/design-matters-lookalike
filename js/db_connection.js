@@ -1,2 +1,2 @@
-import games from "../db/database.json" assert { type: "json" };
+import games from "../db/database.json" with { type: "json" };
 export { games };
